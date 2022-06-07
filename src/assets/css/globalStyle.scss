@@ -1,2 +1,41 @@
+// search button color
+@mixin search-btn-color($name){
+  @if $name == day{
+    background-color: orange;
+    border-color: orange;
+  }
+  @if $name == night{
+    background-color: #1a1d26;
+    border-color: #1a1d26;
+  }
+}
+
+// background image
+@mixin bg-img($name) {
+    @if $name == day-clear {
+      background-image: url('@/assets/img/day/day-clear.jpg');
+    }
+    @if $name == day-cloudy {
+      background-image: url('@/assets/img/day/day-cloudy.jpg');
+    }
+    @if $name == day-rainy {
+      background-image: url('@/assets/img/day/day-rainy.jpg');
+    }
+    @if $name == day-snowy {
+      background-image: url('@/assets/img/day/day-snowy.jpg');
+    }
+    @if $name == night-clear {
+      background-image: url('@/assets/img/night/night-clear.jpg');
+    }
+    @if $name == night-cloudy {
+      background-image: url('@/assets/img/night/night-cloudy.jpg');
+    }
+    @if $name == night-rainy {
+      background-image: url('@/assets/img/night/night-rainy.jpg');
+    }
+    @if $name == night-snowy {
+      background-image: url('@/assets/img/night/night-snowy.jpg');
+    }
+  }
 // font-family
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
