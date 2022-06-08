@@ -2,7 +2,7 @@ import axios from 'axios'
 import store from '@/store/index.js'
 
 const instance = axios.create({
-  baseURL: 'http://api.weatherapi.com/v1',
+  baseURL: 'https://api.weatherapi.com/v1',
   timeout: '10000'
 })
 
