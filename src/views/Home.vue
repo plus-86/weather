@@ -125,6 +125,7 @@ export default {
       res.location.localtime = formattedTime(res.location.localtime)
       chooseImg(res) // choose background images
       this.currentWeather = res
+      this.city = ''
     },
     // get weather info by typing
     async viewWeather() {
