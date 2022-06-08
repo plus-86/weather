@@ -164,7 +164,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  transition: 500ms;
   &#day-clear {
     @include bg-img(day-clear);
   }
